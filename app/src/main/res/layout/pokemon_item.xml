@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pokemon_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_pokemon_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28BD19"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:paddingBottom="5dp"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+</LinearLayout>
